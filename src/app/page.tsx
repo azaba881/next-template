@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,7 +7,7 @@ export default function Home() {
         Here is your Next.js template, ready to use !
       </p>
       <button className="mt-6 px-6 py-3 border border-gray-700 rounded-full text-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
-        Let's get started
+        Let &apos; s get started
       </button>
     </div>
   );

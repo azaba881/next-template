@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true, // Active le mode strict pour éviter les erreurs silencieuses
-  swcMinify: true, // Active SWC pour minifier le code et améliorer les performances
   // i18n: {
   //   locales: ['fr', 'en'], // Langues disponibles
   //   defaultLocale: 'fr', // Langue par défaut
