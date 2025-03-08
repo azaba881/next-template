@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Next.js Starter Template
+This is a Next.js starter template with best practices, essential configurations, and a structured folder architecture to kickstart your projects efficiently.
+
+📥 Clone and Install
+To get started, clone the repository and install dependencies:
+
+git clone https://github.com/your-username/your-repo.git <br/>
+cd your-repo <br/>
+pnpm install  # or npm install / yarn install
 
 ## Getting Started
 
@@ -16,18 +24,31 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/user-attachments/assets/955de2f1-854c-4fe3-9def-e1aa246d31c1)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Configuration & Best Practices
+
+  This template includes the following configurations to ensure code quality and consistency:
+  
+  TypeScript (tsconfig.json) – Strict mode enabled for better type safety.
+  ESLint (.eslintrc.json) – Enforces best coding practices (including semicolons).
+  Prettier (.prettierrc) – Auto-formats code for consistency.
+  Middleware Support (middleware.ts) – Handles API authentication, logging, or redirects.
+  Prisma ORM (optional) – Database setup for PostgreSQL, MySQL, or SQLite.
+  Dark Mode Ready – Uses Tailwind CSS dark mode utilities.
+
+## 📌 Next Steps
+
+  Customize your global styles in src/styles/globals.css. <br/>
+  Add new pages inside src/app/. <br/>
+  Define your components in src/components/. <br/>
+  And have a fun.
 
 ## Deploy on Vercel
 
