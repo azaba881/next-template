@@ -1,0 +1,17 @@
+{
+    "extends": [
+      "next/core-web-vitals",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+      "semi": ["error", "always"],  // Force l'utilisation des points-virgules
+      "comma-dangle": ["error", "always-multiline"], // Oblige les virgules de fin sur plusieurs lignes
+      "@typescript-eslint/no-unused-vars": ["warn"], // Avertit en cas de variable non utilisée
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "prettier/prettier": ["error", { "semi": true, "trailingComma": "es5" }]
+    }
+  }
+  
